@@ -2,14 +2,8 @@
 <html>
 <head><title>Star Trek Random Quote Generator</title></head>
 <body>
-<!--  
-<h3>Hello ${name} ${student}</h3>
-<c:forEach var="tempStudent" items="${students_list}">
 
-	${tempStudent} <br>
-
-</c:forEach>-->
 <br>
-<form><h2>${quote}</h2><input type=button value="Refresh" onClick="window.location.reload()"></form>  
+<form><h2>${quote}</h2><input type=button value="New Quote!" onClick="window.location.reload()"></form>  
 </body>
 </html>
